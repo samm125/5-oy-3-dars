@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding: 32px 0px;
+}
+.container{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    width: 58px;
+}
+.logo img{
+    width: 100%;
+}
+.texts ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+.texts ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;       
+}
+.texts ul li a:hover{
+    color: #FF6A3A;
+}
+.containerer{
+    padding: 0px 40px;
+    background-color: black;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-left: 14px;
+}
+.div{
+    background-color: #F8BC5C;
+    width: 630px;
+    padding: 9px 155px 35px 166px ;
+    border-radius: 10px;
+}
+.div p{
+    font-size: 54px;    
+    text-align: center;
+}
+.photos{
+    margin-top: 30px;
+    
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.en{
+    background-color: #FF6A3A;
+    padding: 29px 193px 38px 179px;
+}
+.en p{
+    margin-right: 80px;
+}
+.nen{
+    padding: 20px 188px 12px 224px;
+}
+.enen{
+    background-color: #FF6A3A;
+    padding: 26px 68px 25px 69px;
+}
+.enen img{
+    margin-left: 130px;
+}
+.enen p{
+    width: 492px;
+}
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 32px 40px;
+}
+.img1{
+    margin-right: 15px;
+}
+.texts2{
+    color: #989EA4;
+}
